@@ -1,6 +1,6 @@
 # H-Tor
 
-Pure ToR Connection
+Safe Tor Connection With Docker and KVM
 
 Requirements:
 - Docker
