@@ -1,0 +1,13 @@
+#SOCKSPort 9100
+SocksPort 0.0.0.0:9100
+SocksPolicy accept 2.2.2.0/24
+SocksPolicy reject *
+
+Log debug file /var/log/tor/debug.log
+DataDirectory /var/lib/tor
+
+RunAsDaemon 0
+DataDirectory /tmp/.tor
+ExitNodes {us} StrictNodes 1
+EntryNode {us} StrictNodes 1
+FascistFirewall 1

@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  ToR:
+    build:
+      dockerfile: Dockerfile.Tor
+      context: .
+    image: debian:buster
+    networks:
+      - DOCKs
+    environment:
+      TZ: "/usr/share/zoneinfo/Europe/Amsterdam"
+networks:
+  DOCKs:
+    external: true

@@ -1,0 +1,10 @@
+FROM debian:buster
+
+RUN apt-get update && apt-get install -y \
+        wget \
+        tor
+
+COPY torrc /etc/tor/torrc
+COPY torsocks.conf /etc/tor/torsocks.conf
+
+CMD [ "tor" ]
