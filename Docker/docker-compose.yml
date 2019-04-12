@@ -6,7 +6,7 @@ services:
       context: .
     image: debian:buster
     networks:
-      - DOCKs
+      - ToR
     environment:
       TZ: "/usr/share/zoneinfo/Europe/Amsterdam"
 networks:
