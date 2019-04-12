@@ -8,6 +8,6 @@ DataDirectory /var/lib/tor
 
 RunAsDaemon 0
 DataDirectory /tmp/.tor
-ExitNodes {us} StrictNodes 1
-EntryNode {us} StrictNodes 1
+ExitNodes {nl} StrictNodes 1
+EntryNode {nl} StrictNodes 1
 FascistFirewall 1
