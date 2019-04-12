@@ -7,7 +7,7 @@ Requirements:
 - Docker custom Network
 - KVM ( recommended )
 
-The problem with running a ToR VM or tor browser is that there is a risk the OS will make direct connections and expose your real IP. You cannot remove the default route because the ToR service relays on this. Firewalling will be nearly impossible or a hell of a task.
+The problem with running a ToR VM or tor browser is that there is a risk the OS will make direct connections and expose your real IP. You cannot remove the default route because the ToR service relies on this. Firewalling will be nearly impossible or a hell of a task.
 
 This project is to make sure everything you do in a OS(VM) is isolated from the network and public connection you are on.
 
