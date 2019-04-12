@@ -10,5 +10,5 @@ services:
     environment:
       TZ: "/usr/share/zoneinfo/Europe/Amsterdam"
 networks:
-  DOCKs:
+  ToR:
     external: true
